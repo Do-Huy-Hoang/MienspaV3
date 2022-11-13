@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mienspa3</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.hbm2ddl.auto">none</property>
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <mapping class="com.example.mienspa.models.Orderspro" />
+        <mapping class="com.example.mienspa.models.Orderserdetail" />
+        <mapping class="com.example.mienspa.models.PermissionRole" />
+        <mapping class="com.example.mienspa.models.Users" />
+        <mapping class="com.example.mienspa.models.Shopinfo" />
+        <mapping class="com.example.mienspa.models.ProductImages" />
+        <mapping class="com.example.mienspa.models.Refreshtoken" />
+        <mapping class="com.example.mienspa.models.UserRole" />
+        <mapping class="com.example.mienspa.models.Ordersser" />
+        <mapping class="com.example.mienspa.models.Category" />
+        <mapping class="com.example.mienspa.models.Permission" />
+        <mapping class="com.example.mienspa.models.Role" />
+        <mapping class="com.example.mienspa.models.Serce" />
+        <mapping class="com.example.mienspa.models.Ordersprodetail" />
+        <mapping class="com.example.mienspa.models.Product" />
+    </session-factory>
+</hibernate-configuration>

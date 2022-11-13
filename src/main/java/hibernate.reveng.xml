@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="mienspa3" match-name="category"/>
+  <table-filter match-catalog="mienspa3" match-name="orderserdetail"/>
+  <table-filter match-catalog="mienspa3" match-name="orderspro"/>
+  <table-filter match-catalog="mienspa3" match-name="ordersprodetail"/>
+  <table-filter match-catalog="mienspa3" match-name="ordersser"/>
+  <table-filter match-catalog="mienspa3" match-name="permission"/>
+  <table-filter match-catalog="mienspa3" match-name="permission_role"/>
+  <table-filter match-catalog="mienspa3" match-name="product"/>
+  <table-filter match-catalog="mienspa3" match-name="product_images"/>
+  <table-filter match-catalog="mienspa3" match-name="refreshtoken"/>
+  <table-filter match-catalog="mienspa3" match-name="role"/>
+  <table-filter match-catalog="mienspa3" match-name="serce"/>
+  <table-filter match-catalog="mienspa3" match-name="shopinfo"/>
+  <table-filter match-catalog="mienspa3" match-name="user_role"/>
+  <table-filter match-catalog="mienspa3" match-name="users"/>
+</hibernate-reverse-engineering>
